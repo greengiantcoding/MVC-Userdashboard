@@ -1,0 +1,76 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	width: 720px;
+	min-height: 500px;
+	margin: 0 auto;
+}
+	.header{
+			width: 100%;
+			height: 30px;
+			border-bottom: 1px solid black;
+		}
+			.headerText{
+				margin-top: 10px;
+				margin-right: 25px ;
+				display: inline-block;
+			}
+			.headerLink{
+				text-decoration: none;
+				color: black;	
+			}
+			.headerHome{
+				background-color: transparent;
+				font-weight: bold;
+				font-size: 14px;
+				font-style: italic;
+				border: transparent;
+			}
+			.signinLink{
+				margin-left: 475px;
+			}
+	.registerBox{
+		display: inline-block;
+		padding-top: 20px;
+		margin-left: 15px;
+		margin-top: 25px;
+		width: 250px;
+		min-height: 400px;
+	}
+	.registerTitle{
+		margin-bottom: 35px;
+		margin-top: 25px;
+	}
+		label{
+			display: block;
+			margin-top: 10px;
+		}
+		input{
+			display: block;
+			margin-top: 2px;
+			width: 200px;
+		}
+		.registerBtn{
+			width: 75px;
+			margin-top: 15px;
+			margin-left: 125px;
+			background-color: green;
+			color: white;
+			height: 20px;
+			box-shadow: 3px 3px 3px black;
+			border: 2px solid black;
+		}
+	.errorBox{
+		margin-top:135px;
+		vertical-align: top;
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+	}	
+		.errorText{
+			color: red;
+			font-size: 12px;
+			margin-top: 5px;
+		}

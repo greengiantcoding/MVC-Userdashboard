@@ -1,0 +1,70 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+/*	background: linear-gradient(45deg, limegreen,blue,limegreen)
+*/}
+.container{
+	margin: 0 auto;
+	width: 900px;
+}
+	#myWall{
+		font-weight: bold;
+		text-decoration: none;
+	}
+	#myMailbox{
+		font-weight: bold;
+		text-decoration: none;
+	}	
+	.header{
+		width: 100%;
+		height: 40px;
+		border-bottom: 1px solid black;
+		margin-bottom: 50px;
+	}
+		.headerText{
+			margin-top: 10px;
+			margin-right: 25px ;
+			display: inline-block;
+		}
+		.headerLink{
+			text-decoration: none;
+			color: black;	
+		}
+		.headerHome{
+			background-color: transparent;
+			font-size: 14px;
+			font-style: italic;
+			border: transparent;
+		}
+		.logoutLink{
+			margin-left: 450px;
+		}
+	.userDash{
+		margin-top: 25px;
+		width: 100%;
+		min-height: 100px;
+		/*border: 1px black solid;*/
+	}
+		.userContent{
+			padding-right: 20px;
+			padding-top: 5px;
+		}
+		.centered{
+			text-align: center;
+		}
+		.boxedIn{
+			border-top: 1px solid black
+		}
+		.bgGray{
+			background-color: lightgray;
+		}
+	#others{
+		width: 18%;
+		border-bottom: 2px solid black;
+	}
+	#uploadProfilePic{
+		width: 50%;
+		margin-top: 10px;
+	}
